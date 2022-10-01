@@ -1,0 +1,29 @@
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 720px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexícivel">
+    </picture>
+    <h2>Colocando áudio</h2>
+    <p>Esse é um audio em HTML, vamos reproduzi-lo?</p>
+    <audio src="midia/skylines - Anno Domini Beats.mp3" autoplay controls loop>
+        <p>Infelizmente o audio não carregou no seu navegador acesse o link <a href="midia/skylines - Anno Domini Beats.mp3" para baixar o arquivo MP3></a></p></audio>
+    <h2>Colocando vídeo</h2>
+    <p>Inserindo vídeos hospedadoslocalmente. <br>Este vídeo está hospedado no meu próprio servidor</p>
+    <video src="midia/mau-video.mp4" width="250" controls autoplay>
+        <p>Seu navegador não tem compatibilidade com o vídeo</p></video>
+        <p>Adicionando um vídeo do youtube, abrangendo o algoritmo e tambem fazendo com que o site fique mais barato</p>
+       </p><iframe width="350" height="250" src="https://www.youtube.com/embed/DqTITcMq68k?controls=0&amp;start=180" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <p>
+    <audio src="midia/skylines - Anno Domini Beats.mp3" controls autoplay></audio>
+</body>
+</html>
